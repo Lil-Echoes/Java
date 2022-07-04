@@ -5,7 +5,7 @@ public class Score1 {
 	public static void main(String[] args) {
 		
 		String subject = "성적표";
-		String[] name = {"BTS", "아이유", "유재석", "블랙핑크"};
+		String[] name = {"BTS", "아이유", "유재석", "블랙"};
 		String[] title = {"이름", "국어", "영어", "수학", "총점", "평균"};
 		int[][] score = {{90, 80, 70}, {76, 86, 90}, {90, 78, 90}, {80, 80, 80}};
 		int len = 47, sum = 0;

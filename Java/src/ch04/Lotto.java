@@ -16,6 +16,7 @@ public class Lotto {
 			lotto[i] = sc.nextInt();
 			for(int j = i -1; j >=0; j--) {
 				if(lotto[i] == lotto[j]) {
+					System.out.print("같은 숫자를 입력하였습니다\n다시 ");
 					i--;
 					break;
 				}

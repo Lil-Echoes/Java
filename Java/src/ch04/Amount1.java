@@ -11,8 +11,7 @@ public class Amount1 {
 		int len = 56, sum = 0;
 		int tot[] = new int[amt[0].length];
 		
-		System.out.println(subject);
-		System.out.println();
+		System.out.printf("%s\n\n", subject);
 		
 		
 		for (int i = 0; i < title.length; i++) {
