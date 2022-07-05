@@ -39,7 +39,7 @@ public class LottoEx2 {
 			}
 		}
 		System.out.println(Arrays.toString(lotto));
-
+		sc.close();
 	}
 
 }
