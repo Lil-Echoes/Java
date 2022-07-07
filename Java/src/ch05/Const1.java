@@ -1,6 +1,7 @@
 package ch05;
 
 class A {
+	String msg;
 	public A() {
 		System.out.println("매개변수가 없는 생성자");
 	}
@@ -11,7 +12,9 @@ class A {
 //		System.out.println("매개변수가 1개인 생성자 : " + a);
 //	}
 	public A(String k) {
-		System.out.println("매개변수가 1개인 생성자 : " + k);
+		System.out.println("매개변수가 1개인 생성자 : " + k
+		);
+		msg=k;
 	}
 	public A(int k1, String k2) {
 		System.out.println("매개변수가 2개인 생성자 : " + k1 + ", k2 = " + k2);
@@ -26,6 +29,8 @@ public class Const1 {
 		A a2 = new A(12);
 		A a3 = new A("대박");
 		A a4 = new A(7, "헐~");
+		
+		System.out.println((a3.msg));
 
 	}
 
