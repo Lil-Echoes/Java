@@ -1,5 +1,8 @@
 package ch08;
 
+
+
+
 public class Employee {
 	
 	final double INCENTIVE_RATE = 0.1;				// 변경 못함
