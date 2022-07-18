@@ -29,7 +29,7 @@ public class Set2 {
 		while(nt.hasNext()) {
 			System.out.println(nt.next());
 		}
-		System.out.println("===========");
+		System.out.println("======================================");
 		
 		System.out.println(nations);
 	}
