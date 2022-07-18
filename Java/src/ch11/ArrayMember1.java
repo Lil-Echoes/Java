@@ -3,7 +3,7 @@ package ch11;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Array3 {
+public class ArrayMember1 {
 	
 	public static void main(String[] args) {
 		
