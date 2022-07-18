@@ -12,5 +12,7 @@ public class Assert1 {
 			num = sc.nextInt();
 			assert(num <=100 && num >= 0) : "점수는 0 ~ 100사이 입니다";
 			System.out.println("입력된 점수 : " + num);
+			
+			sc.close();
 	}
 }
