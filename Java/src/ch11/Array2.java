@@ -2,7 +2,7 @@ package ch11;
 
 import java.util.ArrayList;
 
-public class ArrayList2 {
+public class Array2 {
 	
 	public static void main(String[] args) {
 		
