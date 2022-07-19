@@ -25,7 +25,7 @@ public class Lotto2 {
 			int num = sc.nextInt();
 				if (num > 45 || num < 1) System.out.println("로또 번호로 타당하지 않습니다");
 				else if (!lotto.add(num)) {				// 중복 번호를 입력하면 안내메세지 출력 후 숫자 재입력
-					System.out.println("중복 번호를 입력했습니다.\n다시 입력해주세요.");
+					System.out.println("중복된 번호를 입력했습니다.\n다시 입력해주세요.");
 				};
 				
 		}
